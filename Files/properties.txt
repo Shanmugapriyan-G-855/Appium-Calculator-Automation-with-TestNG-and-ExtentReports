@@ -1,0 +1,18 @@
+platformName = Android
+version = 11
+deviceName = Infinix Hot 10 Play
+udid = 0619731191061108
+appPackage = com.google.android.contacts
+appActivity = com.android.contacts.activities.PeopleActivity
+
+
+#Locators
+
+add = //android.widget.ImageButton[@content-desc=\"Create contact\"]
+name =//android.widget.EditText[@text=\"First name\"]
+phone=//android.widget.EditText[@text=\"Phone\"]
+save=//android.widget.Button[@resource-id=\"com.google.android.contacts:id/toolbar_button\"]
+
+#SendKeys
+firstName = shan
+phoneNumber = 98876543210
